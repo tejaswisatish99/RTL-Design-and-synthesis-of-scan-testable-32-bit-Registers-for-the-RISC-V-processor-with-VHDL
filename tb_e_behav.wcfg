@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_e_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_e" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="83.334 ns"></ZoomStartTime>
+      <ZoomEndTime time="583.334 ns"></ZoomEndTime>
+      <Cursor1Time time="500.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="298"></NameColumnWidth>
+      <ValueColumnWidth column_width="162"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/TMS_i" type="logic">
+      <obj_property name="ElementShortName">TMS_i</obj_property>
+      <obj_property name="ObjectShortName">TMS_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/TRST_i" type="logic">
+      <obj_property name="ElementShortName">TRST_i</obj_property>
+      <obj_property name="ObjectShortName">TRST_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/TCK_i" type="logic">
+      <obj_property name="ElementShortName">TCK_i</obj_property>
+      <obj_property name="ObjectShortName">TCK_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/SelectIR_o" type="logic">
+      <obj_property name="ElementShortName">SelectIR_o</obj_property>
+      <obj_property name="ObjectShortName">SelectIR_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/clock_ir_o" type="logic">
+      <obj_property name="ElementShortName">clock_ir_o</obj_property>
+      <obj_property name="ObjectShortName">clock_ir_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/shift_ir_o" type="logic">
+      <obj_property name="ElementShortName">shift_ir_o</obj_property>
+      <obj_property name="ObjectShortName">shift_ir_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/update_ir_o" type="logic">
+      <obj_property name="ElementShortName">update_ir_o</obj_property>
+      <obj_property name="ObjectShortName">update_ir_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/clock_dr_o" type="logic">
+      <obj_property name="ElementShortName">clock_dr_o</obj_property>
+      <obj_property name="ObjectShortName">clock_dr_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/FSM_state_r" type="other">
+      <obj_property name="ElementShortName">FSM_state_r</obj_property>
+      <obj_property name="ObjectShortName">FSM_state_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/FSM/nstate" type="other">
+      <obj_property name="ElementShortName">nstate</obj_property>
+      <obj_property name="ObjectShortName">nstate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/TDI_i" type="logic">
+      <obj_property name="ElementShortName">TDI_i</obj_property>
+      <obj_property name="ObjectShortName">TDI_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/TDO_o" type="logic">
+      <obj_property name="ElementShortName">TDO_o</obj_property>
+      <obj_property name="ObjectShortName">TDO_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/clock_ir_i" type="logic">
+      <obj_property name="ElementShortName">clock_ir_i</obj_property>
+      <obj_property name="ObjectShortName">clock_ir_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/shift_ir_i" type="logic">
+      <obj_property name="ElementShortName">shift_ir_i</obj_property>
+      <obj_property name="ObjectShortName">shift_ir_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/update_ir_i" type="logic">
+      <obj_property name="ElementShortName">update_ir_i</obj_property>
+      <obj_property name="ObjectShortName">update_ir_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/ScanEn_o" type="logic">
+      <obj_property name="ElementShortName">ScanEn_o</obj_property>
+      <obj_property name="ObjectShortName">ScanEn_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/drmux_o" type="logic">
+      <obj_property name="ElementShortName">drmux_o</obj_property>
+      <obj_property name="ObjectShortName">drmux_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/instrreg1_s" type="array">
+      <obj_property name="ElementShortName">instrreg1_s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">instrreg1_s[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/instr_s" type="array">
+      <obj_property name="ElementShortName">instr_s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_s[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_e/dut/tapc/IR/buff_s" type="array">
+      <obj_property name="ElementShortName">buff_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">buff_s[2:0]</obj_property>
+   </wvobject>
+</wave_config>
